@@ -12,4 +12,8 @@ export class HomeComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  navigateTo( id: string ) {
+    document.getElementById( id ).scrollIntoView();
+  }
+
 }

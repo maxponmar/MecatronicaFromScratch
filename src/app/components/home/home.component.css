@@ -25,4 +25,5 @@
 
 .home-text a:hover {
   color: #fff;
+  cursor: pointer;
 }
