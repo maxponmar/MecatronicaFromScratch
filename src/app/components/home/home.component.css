@@ -1,0 +1,28 @@
+
+.home-text {
+  background: url(../../../assets/images/pexels-pixabay-34521.jpg);
+  color: var(--secondary-color);
+  height: 100vh;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center center;
+  text-align: center;
+  padding-top: 20%;
+}
+
+.home-text a{
+  border: 3px solid #3a1f5d;
+  border-radius: 20px;
+  padding: 10px 25px;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin-top: 20px;
+  display: inline-block;
+  color: #3a1f5d;
+  font: PoppinsB;
+  font-size: 1.5rem;
+}
+
+.home-text a:hover {
+  color: #fff;
+}
