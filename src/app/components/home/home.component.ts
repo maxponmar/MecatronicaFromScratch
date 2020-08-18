@@ -7,13 +7,18 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
 
-  constructor() { }
+  isClicked: boolean;
+
+  constructor() {
+    this.isClicked = false;
+  }
 
   ngOnInit(): void {
   }
 
   navigateTo( id: string ) {
-    document.getElementById( id ).scrollIntoView();
+    /* document.getElementById( id ).scrollIntoView(); */
+    this.isClicked = true;
   }
 
 }

@@ -4,7 +4,7 @@
 
     <div class="logo-container">
       <h3 class="logo" >
-        <a  (click)="navigateTo('home-text')">
+        <a  (click)="navigateTo('top')">
           {{ title }}
         </a>
       </h3>
@@ -14,7 +14,7 @@
       <div class="nav-links">
         <ul>
           <!-- INICIO  -->
-          <li class="nav-link" style="--i: 0.5s;"><a href="#">Inicio</a></li>
+          <li class="nav-link" style="--i: 0.5s;"><a (click)="navigateTo('top')">Inicio</a></li>
           <!-- Las Bases -->
           <li class="nav-link" style="--i: 0.65s;">
             <a href="#">Las Bases<i class="bx bx-caret-down"></i></a>

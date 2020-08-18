@@ -1,7 +1,7 @@
 [
     {
       "title": "Las Bases",
-      "type": "Matemáticas",
+      "category": "Matemáticas",
       "description": "Aprende lo necesario para comprender temas mas avanzados, aquí podrás aprender las bases matemáticas.",
       "imageUrl": "./assets/images/cards/lasbases.jpg",
       "imageText" : "Photo by Ian Panelo from Pexels",
@@ -17,7 +17,7 @@
     },
     {
       "title": "Mecánica",
-      "type": "Física",
+      "category": "Física",
       "description": "Comprende y analiza cuerpos en movimiento o reposo y su evolución en el tiempo, bajo la acción de fuerzas internas y externas.",
       "imageUrl": "./assets/images/cards/mecanica.jpg",
       "imageText" : "Photo by Hebert Santos from Pexels",
@@ -33,7 +33,7 @@
     },
     {
       "title": "Programación",
-      "type": "Computación",
+      "category": "Computación",
       "description": "Aprende a programar en distintos lenguajes y resuelve problemas rápidamente con el computador",
       "imageUrl": "./assets/images/cards/programacion.jpg",
       "imageText" : "Photo by luis gomes from Pexels",
@@ -49,7 +49,7 @@
     },
     {
       "title": "Electrónica",
-      "type": "Física",
+      "category": "Física",
       "description": "Comprende el funcionamiento y uso de los componetes más básicos que existen dentro los disositivos electrónicos",
       "imageUrl": "./assets/images/cards/electronica.jpg",
       "imageText" : "Photo by Alexander Dummer from Pexels",
@@ -65,7 +65,7 @@
     },
     {
       "title": "Control",
-      "type": "Ingeniería",
+      "category": "Ingeniería",
       "description": "Analiza el comportamiento de sistemas dinámicos y aprobecha ese conocimiento para poder controlarlos usando distintas técnicas",
       "imageUrl": "./assets/images/cards/control.jpg",
       "imageText" : "Photo by Josh Sorenson from Pexels",
@@ -81,7 +81,7 @@
     },
     {
       "title": "Mecatrónica",
-      "type": "Ingeniería",
+      "category": "Ingeniería",
       "description": "Aplica el conocimiento de diversas áreas de las matemáticas, física y computación para proponer soluciones competitivas",
       "imageUrl": "./assets/images/cards/mecatronica.jpg",
       "imageText" : "Photo by Pixabay from Pexels",

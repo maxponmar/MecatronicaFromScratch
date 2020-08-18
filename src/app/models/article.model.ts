@@ -1,7 +1,7 @@
 
 export interface Information {
   title: string;
-  type: string;
+  category: string;
   description: string;
   imageUrl: string;
   imageText: string;

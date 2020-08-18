@@ -3,18 +3,19 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-bottom: 60px;
+  padding-bottom: 50px;
 }
 .card{
   height: 300px;
   max-width: 550px;
-  margin: 0 20px;
+  margin: 0 10px;
   background: white;
   transition: 0.4s;
   box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+  border-radius: 10px;
 }
 .card:hover{
-  height: 510px;
+  height: 480px;
   box-shadow: 5px 5px 10px rgba(0,0,0,0.2);
 }
 .card .img{

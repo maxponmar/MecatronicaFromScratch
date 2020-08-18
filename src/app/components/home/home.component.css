@@ -27,3 +27,15 @@
   color: #fff;
   cursor: pointer;
 }
+
+.home-after {
+  transition: 1s;
+  padding: 5%;
+  height: 10%;
+}
+
+.home-after-btn {
+  position: absolute;
+  left: -1000px;
+  transition: 0.3s;
+}
