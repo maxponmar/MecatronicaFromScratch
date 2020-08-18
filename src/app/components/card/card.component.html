@@ -3,28 +3,27 @@
     <div class="img">
       <a href="/home">
         <img
-          src="./assets/images/pexels-ian-panelo-3729557.jpg"
-          alt="Photo by Ian Panelo from Pexels"
+          [src]="info.imageUrl"
+          [alt]="info.imageText"
         />
       </a>
     </div>
     <a
       class="picture-link"
-      href="https://www.pexels.com/photo/monochrome-photo-of-math-formulas-3729557/"
+      [href]="info.imageLink"
       target="_blank"
     >
-      Photo by Ian Panelo from Pexels
+      {{ info.imageText }}
     </a>
     <div class="top-text">
       <div class="name">
-        Las Bases
+        {{ info.title }}
       </div>
-      <p>Matemáticas</p>
+      <p>{{ info.type }}</p>
     </div>
     <div class="bottom-text">
       <div class="text">
-        Aprende lo necesario para comprender temas mas avanzados, aquí podrás
-        aprender las bases matemáticas.
+        {{ info.description }}
       </div>
       <div class="btn">
         <a href="/home">Read more</a>

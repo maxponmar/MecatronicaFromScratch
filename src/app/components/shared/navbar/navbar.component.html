@@ -3,7 +3,11 @@
     <input type="checkbox" name="" id="check" />
 
     <div class="logo-container">
-      <h3 class="logo">{{ title }}</h3>
+      <h3 class="logo" >
+        <a  (click)="navigateTo('home-text')">
+          {{ title }}
+        </a>
+      </h3>
     </div>
 
     <div class="nav-btn">

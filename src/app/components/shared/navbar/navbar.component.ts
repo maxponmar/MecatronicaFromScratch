@@ -1,4 +1,5 @@
 import { Component, OnInit, HostListener } from '@angular/core';
+import {Router} from '@angular/router';
 
 @Component({
   selector: 'app-navbar',
@@ -9,7 +10,7 @@ export class NavbarComponent implements OnInit {
   public title: string;
   public width: any;
 
-  constructor() {
+  constructor(private router: Router) {
     this.title = 'Mecatronica from Scratch';
   }
 
@@ -18,6 +19,7 @@ export class NavbarComponent implements OnInit {
   }
 
   @HostListener('window:resize', ['$event'])
+
   onResize(event) {
     this.updateTitle();
   }
@@ -45,6 +47,14 @@ export class NavbarComponent implements OnInit {
       return 1;
     } else {
       return 2;
+    }
+  }
+
+  navigateTo( id: string ) {
+    if (window.location.href.includes("/home")) {
+      document.getElementById( id ).scrollIntoView();
+    } else {
+      this.router.navigate(['home']);
     }
   }
 

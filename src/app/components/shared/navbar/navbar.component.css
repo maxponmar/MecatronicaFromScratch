@@ -29,13 +29,17 @@
     flex: 1;
 }
 
-.logo{
+.logo a{
     color: var(--primary-color);
     font-size: var(--h3-font-size);
     font-weight: 600;
     /* letter-spacing: 2px; */
     /* text-transform: uppercase; */
     line-height: 3rem;
+}
+
+.logo a:hover {
+  cursor: pointer;
 }
 
 .logo span{

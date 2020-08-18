@@ -1,18 +1,8 @@
-<h2> Contenido </h2>
-
-<!-- <app-card></app-card> -->
-<!-- <app-card></app-card> -->
-<!-- <app-card></app-card> -->
+<!-- <h2> Contenido </h2> -->
 
 <div class="cards-container">
-  <app-card></app-card>
-  <app-card></app-card>
-  <app-card></app-card>
-  <app-card></app-card>
-  <app-card></app-card>
-  <app-card></app-card>
-  <app-card></app-card>
-  <app-card></app-card>
-  <app-card></app-card>
-  <app-card></app-card>
+  <app-card
+    *ngFor="let sections of articulosService.information; let i = index"
+    [info]="articulosService.information[i]"
+  ></app-card>
 </div>
