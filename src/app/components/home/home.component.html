@@ -1,6 +1,5 @@
 <div class="home-text" id="home-text" [ngClass]="{'home-after': isClicked}">
   <h1>Bienvenido a Mecatrónica from Scratch</h1>
-  <a (click)="navigateTo('cards-container')" [ngClass]="{'home-after-btn': isClicked}" >Empieza a explorar</a>
+  <a (click)="explore()" [ngClass]="{'home-after-btn': isClicked}" >Empieza a explorar</a>
 </div>
-
-<app-cards id="cards-container"></app-cards>
+<app-cards></app-cards>

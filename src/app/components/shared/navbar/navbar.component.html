@@ -1,10 +1,14 @@
 <header>
   <div class="container">
-    <input type="checkbox" name="" id="check" />
+    <!-- <input type="checkbox" name="" id="check" /> -->
 
     <div class="logo-container">
-      <h3 class="logo" >
-        <a  (click)="navigateTo('top')">
+      <!-- <a class="close" (click)="closeSlideMenu()"> -->
+      <!--   <i class="bx bx-x"></i> -->
+      <!-- </a> -->
+
+      <h3 class="logo">
+        <a (click)="navigateTo('top')">
           {{ title }}
         </a>
       </h3>
@@ -14,7 +18,9 @@
       <div class="nav-links">
         <ul>
           <!-- INICIO  -->
-          <li class="nav-link" style="--i: 0.5s;"><a (click)="navigateTo('top')">Inicio</a></li>
+          <li class="nav-link" style="--i: 0.5s;">
+            <a (click)="navigateTo('top')">Inicio</a>
+          </li>
           <!-- Las Bases -->
           <li class="nav-link" style="--i: 0.65s;">
             <a href="#">Las Bases<i class="bx bx-caret-down"></i></a>
@@ -153,16 +159,12 @@
               </ul>
             </div>
           </li>
-          <!-- <li class="nav-link" style="--i: 1.35s;">
-            <a href="#">About</a>
-          </li> -->
+          <!-- <li class="nav-link" style="--i: 1.35s;"> -->
+          <!--   <a href="#">About</a> -->
+          <!-- </li> -->
         </ul>
       </div>
 
-      <!-- <div class="log-sign" style="--i: 1.8s;">
-        <a href="#" class="btn transparent">Log in</a>
-        <a href="#" class="btn solid">Sign up</a>
-      </div> -->
     </div>
 
     <div class="hamburger-menu-container">

@@ -6,19 +6,15 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent implements OnInit {
-
   isClicked: boolean;
 
   constructor() {
     this.isClicked = false;
   }
 
-  ngOnInit(): void {
-  }
+  ngOnInit(): void {}
 
-  navigateTo( id: string ) {
-    /* document.getElementById( id ).scrollIntoView(); */
+  explore() {
     this.isClicked = true;
   }
-
 }

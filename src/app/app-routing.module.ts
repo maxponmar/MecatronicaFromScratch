@@ -6,7 +6,7 @@ import {SectionComponent} from './components/section/section.component';
 
 const routes: Routes = [
   { path: 'home', component: HomeComponent },
-  { path: 'section/:name', component: SectionComponent },
+  { path: 'seccion/:name', component: SectionComponent },
   { path: '**', pathMatch: 'full', redirectTo: 'home' }
 ];
 
