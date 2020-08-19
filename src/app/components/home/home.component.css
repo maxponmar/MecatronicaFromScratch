@@ -7,7 +7,8 @@ hr {
 }
 
 .banner {
-  background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.5)), url(../../../assets/images/pexels-pixabay-34521.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)),
+    url(../../../assets/images/pexels-pixabay-34521.jpg);
   color: var(--secondary-color);
   height: 100vh;
   -webkit-background-size: cover;
@@ -22,11 +23,11 @@ hr {
   color: black;
 }
 
-.banner-title h1{
+.banner-title h1 {
   font-size: 58px;
 }
 
-.banner a{
+.banner a {
   /* border: 3px solid #000; */
   border-radius: 20px;
   padding: 10px 25px;
@@ -46,7 +47,8 @@ hr {
 
 .banner-after {
   transition: 1s;
-  background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.3)), url(../../../assets/images/pexels-pixabay-34521.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)),
+    url(../../../assets/images/pexels-pixabay-34521.jpg);
   padding: 5%;
   height: 10%;
 }
@@ -55,4 +57,10 @@ hr {
   position: absolute;
   left: -1000px;
   transition: 0.3s;
+}
+
+@media (max-width: 927px) {
+  .banner-title h1 {
+    font-size: 48px;
+  }
 }

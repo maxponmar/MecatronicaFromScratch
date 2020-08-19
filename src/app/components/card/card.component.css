@@ -3,12 +3,12 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-bottom: 50px;
+  padding-bottom: 30px;
 }
 .card{
   /* height: 300px; */
-  height: 460px;
-  max-width: 380px;
+  height: 480px;
+  max-width: 340px;
   margin: 0 10px;
   background: white;
   transition: 0.4s;

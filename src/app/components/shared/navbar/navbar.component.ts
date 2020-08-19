@@ -43,7 +43,7 @@ export class NavbarComponent implements OnInit {
   private getTitle( width: number ): number {
     if ( width <= 308 ) {
       return 0;
-    } else if ( width > 308 && width <= 474  ) {
+    } else if ( width > 308 && width <= 577  ) {
       return 1;
     } else {
       return 2;
