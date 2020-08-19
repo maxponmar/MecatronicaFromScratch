@@ -15,84 +15,9 @@ header{
   z-index: 1000;
 }
 
-/* section{ */
-/*   position: relative; */
-/*   height: calc(100vh - 3rem); */
-/*   width: 100%; */
-/*   /1* background: url('bg.jpg') no-repeat top center / cover; *1/ */
-/*   overflow: hidden; */
-/* } */
-
-/* .overlay{ */
-/*   position: absolute; */
-/*   width: 100%; */
-/*   height: 100%; */
-/*   top: 0; */
-/*   left: 0; */
-/*   /1* background-color: rgb(56, 165, 238, 0.5); *1/ */
-/*   background-color: var(--background-color); */
-/* } */
-
-/*
-*,::before,::after {
-  box-sizing: border-box;
-}
-
-html {
-  scroll-behavior: smooth;
-}
-
-body {
-  margin: var(--header-height) 0 0 0;
-  font-family: var(--body-font);
-  font-size: var(--normal-font-size);
-  color: var(--second-color);
-  line-height: 1.6;
-}
-
-h1, h2, p {
-  margin: 0;
-}
-
-ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-a{
-  text-decoration: none;
-}
-
-img {
-  max-width: 100%;
-  height: auto;
-  display: block;
-}
-
-.bd-grid {
-  max-width: 1024px;
-  display: grid;
-  grid-template-columns: 100%;
-  grid-column-gap: 2rem;
-  width: calc(100% - 2rem);
-  margin-left: var(--mb-2);
-  margin-right: var(--mb-2);
-}
-
-.l-header {
-  width: 100%;
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: var(--z-fixed);
-  background-color:var(--white-color);
-  box-shadow: 0 1px 4px rgba(146, 161, 176, .15);
-} */
-
 .container{
-    max-width: calc(100%-2rem);
-    padding: 0 2rem;
+    max-width: calc(100%-1rem);
+    padding: 0 1rem;
     margin: 0 auto;
     display: flex;
     position: relative;
@@ -124,45 +49,16 @@ img {
     color: var(--primary-color);
     font-size: var(--h3-font-size);
     font-weight: 600;
-    /* letter-spacing: 2px; */
-    /* text-transform: uppercase; */
     line-height: 3rem;
-}
-
-.logo a:hover {
-  cursor: pointer;
 }
 
 .logo span{
     font-weight: 300;
 }
 
-/* .btn{
-    display: inline-block;
-    padding: .5rem 1.3rem;
-    font-size: .8rem;
-    border: 2px solid #fff;
-    border-radius: 2rem;
-    line-height: 1;
-    margin: 0 .2rem;
-    transition: .3s;
-    text-transform: uppercase;
-}
-
-.btn.solid, .btn.transparent:hover{
-    background-color: var(--background-color);
-    color: #69bde7;
-}
-
-.btn.transparent, .btn.solid:hover{
-    background-color: transparent;
-    color: var(--background-color);
-} */
-
 .nav-links > ul{
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-end;
 }
 
 .nav-link{
@@ -350,7 +246,7 @@ img {
     }
 }
 
-@media (max-width: 1163px){
+@media (max-width: 1224px){
     .hamburger-menu-container{
         display: flex;
     }

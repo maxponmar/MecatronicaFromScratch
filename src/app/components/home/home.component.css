@@ -1,40 +1,56 @@
+span {
+  color: var(--primary-color);
+}
 
-.home-text {
-  background: url(../../../assets/images/pexels-pixabay-34521.jpg);
+hr {
+  border: none;
+}
+
+.banner {
+  background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.2)), url(../../../assets/images/pexels-pixabay-34521.jpg);
   color: var(--secondary-color);
   height: 100vh;
   -webkit-background-size: cover;
   background-size: cover;
   background-position: center center;
-  text-align: center;
-  padding-top: 20%;
+  text-align: left;
+  padding-top: 10%;
+  padding-left: 10%;
 }
 
-.home-text a{
-  border: 3px solid #3a1f5d;
+.banner-title {
+  color: black;
+}
+
+.banner-title h1{
+  font-size: 58px;
+}
+
+.banner a{
+  /* border: 3px solid #000; */
   border-radius: 20px;
   padding: 10px 25px;
   text-decoration: none;
   text-transform: uppercase;
   margin-top: 20px;
   display: inline-block;
-  color: #3a1f5d;
-  font: PoppinsB;
-  font-size: 1.5rem;
+  color: #000;
+  font-size: 1rem;
+  background-color: var(--primary-color);
 }
 
-.home-text a:hover {
+.banner a:hover {
   color: #fff;
   cursor: pointer;
 }
 
-.home-after {
+.banner-after {
   transition: 1s;
   padding: 5%;
   height: 10%;
 }
 
-.home-after-btn {
+.banner-after-btn {
   position: absolute;
   left: -1000px;
   transition: 0.3s;

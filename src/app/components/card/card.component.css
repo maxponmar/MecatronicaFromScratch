@@ -6,17 +6,18 @@
   padding-bottom: 50px;
 }
 .card{
-  height: 300px;
-  max-width: 550px;
+  /* height: 300px; */
+  height: 460px;
+  max-width: 380px;
   margin: 0 10px;
   background: white;
   transition: 0.4s;
-  box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
   border-radius: 10px;
 }
 .card:hover{
-  height: 480px;
-  box-shadow: 5px 5px 10px rgba(0,0,0,0.2);
+  /* height: 480px; */
+  box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
 }
 .card .img{
   height: 200px;
@@ -45,14 +46,15 @@
   padding: 0 20px 10px 20px;
   margin-top: 5px;
   background: white;
-  opacity: 0;
-  visibility: hidden;
+  /* opacity: 0; */
+  /* visibility: visible; */
   transition: 0.1s;
 }
-.card:hover .bottom-text{
-  opacity: 1;
-  visibility: visible;
-}
+
+/* .card:hover .bottom-text{ */
+  /* opacity: 1; */
+  /* visibility: visible; */
+/* } */
 .card .bottom-text .text{
   text-align: justify;
 }
