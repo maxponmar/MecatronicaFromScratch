@@ -1,6 +1,7 @@
 
 export interface Information {
   title: string;
+  link: string;
   category: string;
   description: string;
   imageUrl: string;

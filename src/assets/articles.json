@@ -1,6 +1,7 @@
 [
     {
       "title": "Las Bases",
+      "link": "/seccion/lasbases",
       "category": "Matemáticas",
       "description": "Aprende lo necesario para comprender temas mas avanzados, aquí podrás aprender las bases matemáticas.",
       "imageUrl": "./assets/images/cards/lasbases.jpg",
@@ -17,6 +18,7 @@
     },
     {
       "title": "Mecánica",
+      "link": "/seccion/mecanica",
       "category": "Física",
       "description": "Comprende y analiza cuerpos en movimiento o reposo y su evolución en el tiempo, bajo la acción de fuerzas internas y externas.",
       "imageUrl": "./assets/images/cards/mecanica.jpg",
@@ -33,6 +35,7 @@
     },
     {
       "title": "Programación",
+      "link": "/seccion/programacion",
       "category": "Computación",
       "description": "Aprende a programar en distintos lenguajes y resuelve problemas rápidamente con el computador",
       "imageUrl": "./assets/images/cards/programacion.jpg",
@@ -49,6 +52,7 @@
     },
     {
       "title": "Electrónica",
+      "link": "/seccion/electronica",
       "category": "Física",
       "description": "Comprende el funcionamiento y uso de los componetes más básicos que existen dentro los disositivos electrónicos",
       "imageUrl": "./assets/images/cards/electronica.jpg",
@@ -65,6 +69,7 @@
     },
     {
       "title": "Control",
+      "link": "/seccion/control",
       "category": "Ingeniería",
       "description": "Analiza el comportamiento de sistemas dinámicos y aprobecha ese conocimiento para poder controlarlos usando distintas técnicas",
       "imageUrl": "./assets/images/cards/control.jpg",
@@ -81,6 +86,7 @@
     },
     {
       "title": "Mecatrónica",
+      "link": "/seccion/mecatronica",
       "category": "Ingeniería",
       "description": "Aplica el conocimiento de diversas áreas de las matemáticas, física y computación para proponer soluciones competitivas",
       "imageUrl": "./assets/images/cards/mecatronica.jpg",

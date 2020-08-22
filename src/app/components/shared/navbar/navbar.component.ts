@@ -1,5 +1,6 @@
 import { Component, OnInit, HostListener } from '@angular/core';
 import {Router} from '@angular/router';
+import {ArticulosService} from 'src/app/services/articulos.service';
 
 @Component({
   selector: 'app-navbar',
@@ -10,7 +11,7 @@ export class NavbarComponent implements OnInit {
   public title: string;
   public width: any;
 
-  constructor(private router: Router) {
+  constructor(private router: Router, public articulosService: ArticulosService) {
     this.title = 'Mecatronica from Scratch';
   }
 

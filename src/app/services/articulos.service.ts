@@ -11,7 +11,8 @@ export class ArticulosService {
 
   constructor() {
     this.information = articles;
-    /* console.log(this.information[0].title); */
+    console.log(this.information[0].articles);
+
   }
 
 
