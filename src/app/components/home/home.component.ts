@@ -25,14 +25,6 @@ export class HomeComponent implements OnInit {
 
   explore() {
     this.isClicked = true;
-    for (let i = 0; i < document.body.scrollHeight; i++) {
-      setTimeout(() => {
-        window.scrollTo(0, i);
-      }, 1);
-    }
-    setTimeout(() => {
-      document.getElementById('top').scrollIntoView();
-    }, 800);
   }
 
   responsive() {
