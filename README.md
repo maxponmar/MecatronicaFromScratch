@@ -2,4 +2,4 @@
 
 Preview
 
-![alt text](https://github.com/maxponmar/MecatronicaFromScratch/blob/master/PreviewImages/HomePreview.png?raw=true)
+![Home Page](https://github.com/maxponmar/MecatronicaFromScratch/blob/master/PreviewImages/HomePage.png?raw=true)
