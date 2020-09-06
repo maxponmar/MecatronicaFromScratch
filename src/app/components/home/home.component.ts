@@ -24,7 +24,8 @@ export class HomeComponent implements OnInit {
   ngOnInit(): void {}
 
   explore() {
-    this.isClicked = true;
+    /* this.isClicked = true; */
+    document.getElementById("Cards_Container").scrollIntoView();
   }
 
   responsive() {
