@@ -1,0 +1,104 @@
+[
+  {
+    "title": "Las Bases",
+    "link": "/seccion/lasbases",
+    "category": "Matemáticas",
+    "description": "Aprende lo necesario para comprender temas mas avanzados, aquí podrás aprender las bases matemáticas.",
+    "imageUrl": "./assets/images/cards/lasbases.jpg",
+    "imageText": "Photo by Ian Panelo from Pexels",
+    "imageLink": "https://www.pexels.com/photo/monochrome-photo-of-math-formulas-3729557/",
+    "articles": {
+      "title": "Álgebra",
+      "sections": {
+        "title": "prueba",
+        "id": "1",
+        "content": "prueba"
+      }
+    }
+  },
+  {
+    "title": "Mecánica",
+    "link": "/seccion/mecanica",
+    "category": "Física",
+    "description": "Comprende y analiza cuerpos en movimiento o reposo y su evolución en el tiempo, bajo la acción de fuerzas internas y externas.",
+    "imageUrl": "./assets/images/cards/mecanica.jpg",
+    "imageText": "Photo by Hebert Santos from Pexels",
+    "imageLink": "https://www.pexels.com/photo/close-up-photo-of-black-and-silver-car-engine-3757226/",
+    "articles": {
+      "title": "Estática",
+      "sections": {
+        "title": "prueba",
+        "id": "1",
+        "content": "prueba"
+      }
+    }
+  },
+  {
+    "title": "Programación",
+    "link": "/seccion/programacion",
+    "category": "Computación",
+    "description": "Aprende a programar en distintos lenguajes y resuelve problemas rápidamente con el computador",
+    "imageUrl": "./assets/images/cards/programacion.jpg",
+    "imageText": "Photo by luis gomes from Pexels",
+    "imageLink": "https://www.pexels.com/photo/blur-close-up-code-computer-546819/",
+    "articles": {
+      "title": "C#",
+      "sections": {
+        "title": "prueba",
+        "id": "1",
+        "content": "prueba"
+      }
+    }
+  },
+  {
+    "title": "Electrónica",
+    "link": "/seccion/electronica",
+    "category": "Física",
+    "description": "Comprende el funcionamiento y uso de los componetes más básicos que existen dentro los disositivos electrónicos",
+    "imageUrl": "./assets/images/cards/electronica.jpg",
+    "imageText": "Photo by Alexander Dummer from Pexels",
+    "imageLink": "https://www.pexels.com/photo/people-laptop-industry-internet-132700/",
+    "articles": {
+      "title": "Electromagnetismo",
+      "sections": {
+        "title": "prueba",
+        "id": "1",
+        "content": "prueba"
+      }
+    }
+  },
+  {
+    "title": "Control",
+    "link": "/seccion/control",
+    "category": "Ingeniería",
+    "description": "Analiza el comportamiento de sistemas dinámicos y aprobecha ese conocimiento para poder controlarlos usando distintas técnicas",
+    "imageUrl": "./assets/images/cards/control.jpg",
+    "imageText": "Photo by Josh Sorenson from Pexels",
+    "imageLink": "https://www.pexels.com/photo/quadcopter-flying-on-the-skey-1034812/",
+    "articles": {
+      "title": "Dinámica de Sistemas",
+      "sections": {
+        "title": "prueba",
+        "id": "1",
+        "content": "prueba"
+      }
+    }
+  },
+  {
+    "title": "Mecatrónica",
+    "link": "/seccion/mecatronica",
+    "category": "Ingeniería",
+    "description": "Aplica el conocimiento de diversas áreas de las matemáticas, física y computación para proponer soluciones competitivas",
+    "imageUrl": "./assets/images/cards/mecatronica.jpg",
+    "imageText": "Photo by Pixabay from Pexels",
+    "imageLink": "https://www.pexels.com/photo/close-up-of-telephone-booth-257736/",
+    "articles": {
+      "title": "Dibujo CAD",
+      "sections": {
+        "title": "prueba",
+        "id": "1",
+        "content": "prueba"
+      }
+    }
+  }
+]

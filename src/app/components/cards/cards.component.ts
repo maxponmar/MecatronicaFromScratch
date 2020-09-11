@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { ArticulosService } from '../../services/articulos.service'
+import { DatabaseService } from '../../services/database.service'
 
 @Component({
   selector: 'app-cards',
@@ -8,7 +8,7 @@ import { ArticulosService } from '../../services/articulos.service'
 })
 export class CardsComponent implements OnInit {
 
-  constructor(public articulosService: ArticulosService) {
+  constructor(public databaseService: DatabaseService) {
 
   }
 

@@ -1,8 +1,8 @@
 
-export interface Information {
+export interface Category {
   title: string;
   link: string;
-  category: string;
+  type: string;
   description: string;
   imageUrl: string;
   imageText: string;

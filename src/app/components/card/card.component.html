@@ -3,27 +3,27 @@
     <div class="img">
       <a href="/home">
         <img
-          [src]="info.imageUrl"
-          [alt]="info.imageText"
+          [src]="category.imageUrl"
+          [alt]="category.imageText"
         />
       </a>
     </div>
     <a
       class="picture-link"
-      [href]="info.imageLink"
+      [href]="category.imageLink"
       target="_blank"
     >
-      {{ info.imageText }}
+      {{ category.imageText }}
     </a>
     <div class="top-text">
       <div class="name">
-        {{ info.title }}
+        {{ category.title }}
       </div>
-      <p>{{ info.category }}</p>
+      <p>{{ category.type }}</p>
     </div>
     <div class="bottom-text">
       <div class="text">
-        {{ info.description }}
+        {{ category.description }}
       </div>
       <div class="btn">
         <a href="/home">Leer más</a>
