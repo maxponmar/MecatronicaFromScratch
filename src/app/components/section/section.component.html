@@ -1,1 +1,10 @@
-<h1>{{ section }}</h1>
+<section id="showcase" style="
+  background:url('{{ category.imageUrl }}');
+  background-size: cover;
+  background-position: center center;
+  filter: grayscale(30%);">
+  <div class="container">
+    <h1 class="shadow">{{ category.title }}</h1>
+    <p>{{ category.description }}</p>
+  </div>
+</section>

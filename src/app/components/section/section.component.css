@@ -1,51 +1,42 @@
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
 
-@import url('https://fonts.googleapis.com/css?family=Alegreya+Sans:800');
+#showcase {
+  min-height: 400px;
+  /* background:url('../../../assets/images/cards/lasbases.jpg') no-repeat 0 -400px; */
+  text-align: center;
+  color: #fff;
+  text-shadow: 10px 3px 10px #000;
+  font-size: medium;
+  font-weight: bold;
+}
 
-body {
-	font-family: 'Alegreya Sans', sans-serif;
-	overflow-x: hidden;
+#showcase h1 {
+  margin-top: 100px;
+  font-size: 55px;
+  margin-bottom: 10px;
 }
-a {
-  cursor: pointer;
+
+#showcase p {
+  font-size: 20px;
 }
-.nav {
-	height: 100%;
-	width: 0;
-	position: fixed;
-	z-index: 1;
-	top: 0;
-	left: 0;
-	background-color: #111;
-	opacity: .9;
-	overflow-x: hidden;
-	padding-top: 60px;
-	transition: 0.7s;
+
+.shadow {
+  color: var(--primary-color);
+  text-shadow: 1px 1px #393e46, 2px 2px #393e46, 3px 3px #393e46;
+  -webkit-transition: all 0.12s ease-out;
+  -moz-transition: all 0.12s ease-out;
+  -ms-transition: all 0.12s ease-out;
+  -o-transition: all 0.12s ease-out;
+  transition: all 0.12s ease-out;
 }
-.nav a {
-	display: block;
-	padding: 20px 30px;
-	font-size: 25px;
-	text-decoration: none;
-	color: #ccc;
-}
-.nav a:hover {
-	color: #fff;
-	transition: 0.4s;
-}
-.nav .close {
-	position: absolute;
-	top: 0;
-	right: 22px;
-	margin-left: 50px;
-	font-size: 30px
-}
-.slide a {
-	color: #000;
-	font-size: 36px;
-}
-#content {
-	padding: 20px;
-	transition: margin-left 0.7s;
-	overflow: hidden;
-	width: 100%;
+.shadow:hover {
+  position: relative;
+  top: -3px;
+  left: -3px;
+  text-shadow: 1px 1px #393e46, 2px 2px #393e46, 3px 3px #393e46,
+    4px 4px #222831, 5px 5px #222831, 6px 6px #222831;
 }

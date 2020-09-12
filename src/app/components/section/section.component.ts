@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { DatabaseService } from 'src/app/services/database.service';
+import { Category } from 'src/app/models/database.model';
 
 @Component({
   selector: 'app-section',
@@ -9,7 +10,7 @@ import { DatabaseService } from 'src/app/services/database.service';
 })
 export class SectionComponent implements OnInit {
 
-  section: string;
+  category: Category;
 
   constructor(
     private route: ActivatedRoute,
@@ -17,7 +18,7 @@ export class SectionComponent implements OnInit {
 
   ngOnInit(): void {
     this.route.paramMap.subscribe(params => {
-      this.section = this.databaseService.getCategoryByLink( params.get('name') );
+      this.category = this.databaseService.getCategoryByLink( params.get('name') );
     });
   }
 }

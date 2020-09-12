@@ -14,9 +14,9 @@ export class DatabaseService {
   }
 
   public getCategoryByLink(link: string){
-    const found: Category = database.find((element: Category) => {
+    const foundCategory: Category = database.find((element: Category) => {
       return element.link.includes(link);
     });
-    return found.title;
+    return foundCategory;
   }
 }
