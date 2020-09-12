@@ -11,7 +11,11 @@ export interface Category {
 }
 
 export interface Article {
+  type: string;
   title: string;
+  description: string;
+  descriptionLink: string;
+  link: string;
   sections: Section[];
 }
 

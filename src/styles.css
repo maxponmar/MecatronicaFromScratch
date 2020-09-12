@@ -77,7 +77,7 @@ a{
   text-decoration: none;
 }
 
-header{
+/* header{
   position: sticky;
   top: 0px;
   background-color: var(--secondary-color);
@@ -89,9 +89,9 @@ section{
   position: relative;
   height: calc(100vh - 3rem);
   width: 100%;
-  /* background: url('bg.jpg') no-repeat top center / cover; */
+  background: url('bg.jpg') no-repeat top center / cover;
   overflow: hidden;
-}
+} */
 
 .overlay{
   position: absolute;

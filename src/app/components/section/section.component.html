@@ -8,3 +8,19 @@
     <p>{{ category.description }}</p>
   </div>
 </section>
+
+<section class="card-list">
+
+  <article class="card" *ngFor="let article of category.articles">
+    <header class="card-header">
+      <p>{{ article.type }}</p>
+      <h2>{{ article.title }}</h2>
+    </header>
+
+    <p class="card-description">{{ article.description }}</p>
+
+    <div class="tags">
+      <a [href]="article.descriptionLink">Definicion</a>
+    </div>
+  </article>
+</section>
