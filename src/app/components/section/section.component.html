@@ -12,10 +12,12 @@
 <section class="card-list">
 
   <article class="card" *ngFor="let article of category.articles">
-    <header class="card-header">
-      <p>{{ article.type }}</p>
-      <h2>{{ article.title }}</h2>
-    </header>
+    <a [href]="article.link">
+      <header class="card-header">
+        <p>{{ article.type }}</p>
+        <h2>{{ article.title }}</h2>
+      </header>
+    </a>
 
     <p class="card-description">{{ article.description }}</p>
 

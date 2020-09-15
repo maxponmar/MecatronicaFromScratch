@@ -1,7 +1,7 @@
 [
   {
     "title": "Las Bases",
-    "link": "/seccion/lasbases",
+    "link": "/lasbases",
     "category": "Matemáticas",
     "description": "Aprende lo necesario para comprender temas mas avanzados, aquí podrás aprender las bases matemáticas.",
     "imageUrl": "./assets/images/cards/lasbases.jpg",
@@ -13,7 +13,7 @@
         "title": "Álgebra",
         "description": "Álgebra es el nombre que identifica a una rama de la Matemática que emplea números, letras y signos para poder hacer referencia a múltiples operaciones aritméticas.",
         "descriptionLink": "https://definicion.de/algebra/",
-        "link": "",
+        "link": "/lasbases/algebra",
         "sections": {
           "title": "prueba",
           "id": "1",
@@ -25,7 +25,7 @@
         "title": "Cálculo Diferencial",
         "description": "El cálculo diferencial estudia cómo cambian las funciones continuas según sus variables cambian de estado.",
         "descriptionLink": "https://es.wikipedia.org/wiki/C%C3%A1lculo_diferencial",
-        "link": "",
+        "link": "/lasbases/calculodiferencial",
         "sections": {
           "title": "prueba",
           "id": "1",
@@ -37,7 +37,7 @@
         "title": "Cálculo Integral",
         "description": "El cálculo integral es una rama de las matemáticas en el proceso de integración o antiderivación. Se utiliza principalmente para el cálculo de áreas y volúmenes de regiones y sólidos de revolución. ",
         "descriptionLink": "https://es.wikipedia.org/wiki/Integraci%C3%B3n",
-        "link": "",
+        "link": "/lasbases/calculointegral",
         "sections": {
           "title": "prueba",
           "id": "1",
@@ -49,7 +49,7 @@
         "title": "Cálculo Vectorial",
         "description": "También conocido como cálculo multivariable es un campo de las matemáticas referidas al análisis real multivariable de vectores en 2 o más dimensiones.",
         "descriptionLink": "https://es.wikipedia.org/wiki/C%C3%A1lculo_vectorial",
-        "link": "",
+        "link": "/lasbases/calculovectorial",
         "sections": {
           "title": "prueba",
           "id": "1",
@@ -58,10 +58,10 @@
       },
       {
         "type":"Matemáticas",
-        "title": "Ecuación diferencial",
+        "title": "Ecuaciónes diferencial",
         "description": "Una ecuación diferencial es una ecuación matemática que relaciona una función con sus derivadas.",
         "descriptionLink": "https://es.wikipedia.org/wiki/%C3%81lgebra_lineal",
-        "link": "",
+        "link": "/lasbases/ecuacionesdiferenciales",
         "sections": {
           "title": "prueba",
           "id": "1",
@@ -73,7 +73,7 @@
         "title": "Álgebra lineal",
         "description": "Estudia conceptos tales como vectores, matrices, espacio dual, sistemas de ecuaciones lineales y en su enfoque de manera más formal, espacios vectoriales y sus transformaciones lineales. ",
         "descriptionLink": "https://es.wikipedia.org/wiki/%C3%81lgebra_lineal",
-        "link": "",
+        "link": "/lasbases/algebralineal",
         "sections": {
           "title": "prueba",
           "id": "1",
@@ -85,7 +85,7 @@
         "title": "Estadística",
         "description": "estudia la variabilidad, así como el proceso aleatorio que la genera siguiendo las leyes de la probabilidad.",
         "descriptionLink": "https://es.wikipedia.org/wiki/Estad%C3%ADstica",
-        "link": "",
+        "link": "/lasbases/estadistica",
         "sections": {
           "title": "prueba",
           "id": "1",
@@ -97,7 +97,7 @@
         "title": "Métodos numéricos",
         "description": "Un método numérico es un algoritmo que intenta resolver una operación matemática compleja en un ordenador.",
         "descriptionLink": "https://mat.caminos.upm.es/wiki/M%C3%A9todos_num%C3%A9ricos",
-        "link": "",
+        "link": "/lasbases/metodosnumericos",
         "sections": {
           "title": "prueba",
           "id": "1",
@@ -106,10 +106,10 @@
       },
       {
         "type":"Matemáticas",
-        "title": "Número complejo",
+        "title": "Números complejo",
         "description": "Los números complejos son una extensión de los números reales y forman un cuerpo algebraicamente cerrado.",
         "descriptionLink": "https://es.wikipedia.org/wiki/N%C3%BAmero_complejo",
-        "link": "",
+        "link": "/lasbases/numeroscomplejos",
         "sections": {
           "title": "prueba",
           "id": "1",
@@ -121,7 +121,7 @@
         "title": "Transformada de Laplace",
         "description": "La transformada de Laplace es un tipo de transformada integral frecuentemente usada para la resolución de ecuaciones diferenciales ordinarias.",
         "descriptionLink": "https://es.wikipedia.org/wiki/Transformada_de_Laplace",
-        "link": "",
+        "link": "/lasbases/transformadalaplace",
         "sections": {
           "title": "prueba",
           "id": "1",
@@ -132,7 +132,7 @@
   },
   {
     "title": "Mecánica",
-    "link": "/seccion/mecanica",
+    "link": "/mecanica",
     "category": "Física",
     "description": "Comprende y analiza cuerpos en movimiento o reposo y su evolución en el tiempo, bajo la acción de fuerzas internas y externas.",
     "imageUrl": "./assets/images/cards/mecanica.jpg",
@@ -149,7 +149,7 @@
   },
   {
     "title": "Programación",
-    "link": "/seccion/programacion",
+    "link": "/programacion",
     "category": "Computación",
     "description": "Aprende a programar en distintos lenguajes y resuelve problemas rápidamente con el computador",
     "imageUrl": "./assets/images/cards/programacion.jpg",
@@ -166,7 +166,7 @@
   },
   {
     "title": "Electrónica",
-    "link": "/seccion/electronica",
+    "link": "/electronica",
     "category": "Física",
     "description": "Comprende el funcionamiento y uso de los componetes más básicos que existen dentro los disositivos electrónicos",
     "imageUrl": "./assets/images/cards/electronica.jpg",
@@ -183,7 +183,7 @@
   },
   {
     "title": "Control",
-    "link": "/seccion/control",
+    "link": "/control",
     "category": "Ingeniería",
     "description": "Analiza el comportamiento de sistemas dinámicos y aprobecha ese conocimiento para poder controlarlos usando distintas técnicas",
     "imageUrl": "./assets/images/cards/control.jpg",
@@ -200,7 +200,7 @@
   },
   {
     "title": "Mecatrónica",
-    "link": "/seccion/mecatronica",
+    "link": "/mecatronica",
     "category": "Ingeniería",
     "description": "Aplica el conocimiento de diversas áreas de las matemáticas, física y computación para proponer soluciones competitivas",
     "imageUrl": "./assets/images/cards/mecatronica.jpg",

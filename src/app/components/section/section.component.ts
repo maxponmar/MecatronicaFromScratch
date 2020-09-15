@@ -14,11 +14,12 @@ export class SectionComponent implements OnInit {
 
   constructor(
     private route: ActivatedRoute,
-    private databaseService: DatabaseService) {}
+    private databaseService: DatabaseService
+  ) { }
 
   ngOnInit(): void {
     this.route.paramMap.subscribe(params => {
-      this.category = this.databaseService.getCategoryByLink( params.get('name') );
+      this.category = this.databaseService.getCategoryByLink( params.get('category') );
     });
   }
 }

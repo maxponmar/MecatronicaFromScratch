@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { Category } from '../models/database.model';
+import { Article, Category } from '../models/database.model';
 import database from '../../assets/database.json';
 
 @Injectable({
@@ -13,10 +13,18 @@ export class DatabaseService {
     this.database = database;
   }
 
-  public getCategoryByLink(link: string){
+  public getCategoryByLink(categoryUrl: string){
     const foundCategory: Category = database.find((element: Category) => {
-      return element.link.includes(link);
+      return element.link.includes(categoryUrl);
     });
     return foundCategory;
+  }
+
+  public getArticleByLink(categoryUrl: string, articleUrl: string){
+    const category: Category = this.getCategoryByLink(categoryUrl);
+    const foundArticle: Article =  category.articles.find((element: Article) => {
+      return element.link.includes(articleUrl);
+    });
+    return foundArticle;
   }
 }
