@@ -45,6 +45,18 @@ header{
     flex: 1;
 }
 
+ /* FOR SIDEBAR */
+ .side_toggle{
+  padding: 0 0.5rem;
+  font-size: 1.3rem;
+  cursor: pointer;
+}
+
+.side_toggle a{
+  color: var(--background-color);
+}
+
+
 .logo a{
     color: var(--primary-color);
     font-size: var(--h3-font-size);

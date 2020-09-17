@@ -18,8 +18,9 @@ export class SectionComponent implements OnInit {
   ) { }
 
   ngOnInit(): void {
-    this.route.paramMap.subscribe(params => {
-      this.category = this.databaseService.getCategoryByLink( params.get('category') );
-    });
+    // this.route.paramMap.subscribe(params => {
+    //   this.category = this.databaseService.getCategoryByLink( params.get('category') );
+    // });
+    this.category = this.databaseService.getCategoryByLink(this.route.snapshot.params.category);
   }
 }

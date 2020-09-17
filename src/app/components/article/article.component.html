@@ -1,1 +1,50 @@
-<p>article works!</p>
+<!-- <div class="side_toggle" id="side-toggle">
+  <a><i class="bx bx-menu"></i></a>
+</div> -->
+
+<div id="mySidebar" class="sidebar">
+  <a class="closebtn" (click)="closeNav()">×</a>
+  <a (click)="scroll(seccion1)" class="active">Seccion 1</a>
+  <a (click)="scroll(seccion2)" >Seccion 2</a>
+  <a (click)="scroll(seccion3)" >Seccion 3</a>
+  <a (click)="scroll(seccion4)" >Seccion 4</a>
+  <a (click)="scroll(seccion5)" >Seccion 5</a>
+  <a>Seccion 7</a>
+  <a>Seccion 8</a>
+  <a>Seccion 9</a>
+  <a>Seccion 10</a>
+  <a>Seccion 12</a>
+  <a>Seccion 13</a>
+  <a>Seccion 11</a>
+</div>
+
+<div id="main">
+  <button class="openbtn" (click)="openNav()">☰ Ver secciones</button>
+  <article>
+    <header>
+      <h1>{{ article.title }}</h1>
+    </header>
+    <section #seccion1>
+      <h2>Seccion 1: prueba</h2>
+      <p>Contenido de la seccion</p>
+    </section>
+    <section #seccion2>
+      <h2>Seccion 2: prueba</h2>
+      <p>Contenido de la seccion</p>
+    </section>
+    <section #seccion3>
+      <h2>Seccion 3: prueba</h2>
+      <p>Contenido de la seccion</p>
+    </section>
+    <section #seccion4>
+      <h2>Seccion 4: prueba</h2>
+      <p>Contenido de la seccion</p>
+    </section>
+    <section #seccion5>
+      <h2>Seccion 5: prueba</h2>
+      <p>Contenido de la seccion</p>
+    </section>
+  </article>
+</div>
+
+

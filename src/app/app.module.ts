@@ -10,7 +10,6 @@ import { ContentComponent } from './components/content/content.component';
 import { CardsComponent } from './components/cards/cards.component';
 import { CardComponent } from './components/card/card.component';
 import { SectionComponent } from './components/section/section.component';
-import { SidebarComponent } from './components/shared/sidebar/sidebar.component';
 import { ArticleComponent } from './components/article/article.component';
 
 @NgModule({
@@ -23,7 +22,6 @@ import { ArticleComponent } from './components/article/article.component';
     CardsComponent,
     CardComponent,
     SectionComponent,
-    SidebarComponent,
     ArticleComponent
   ],
   imports: [

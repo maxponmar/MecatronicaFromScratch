@@ -1,5 +1,5 @@
 import { Component, OnInit, HostListener } from '@angular/core';
-import { Router } from '@angular/router';
+import { ActivatedRoute, Router } from '@angular/router';
 import { DatabaseService } from 'src/app/services/database.service';
 
 @Component({
@@ -10,13 +10,21 @@ import { DatabaseService } from 'src/app/services/database.service';
 export class NavbarComponent implements OnInit {
   public title: string;
   public width: any;
+  public isArticle: string;
 
-  constructor(private router: Router, public databaseService: DatabaseService) {
-    this.title = 'Mecatronica from Scratch';
-  }
+  constructor(
+    private router: Router,
+    private activeRoute: ActivatedRoute,
+    public databaseService: DatabaseService
+    ) {
+      this.title = 'Mecatronica from Scratch';
+    }
 
   ngOnInit(): void {
     this.updateTitle();
+    this.activeRoute.paramMap.subscribe(params => {
+      this.isArticle = params.get('category');
+    });
   }
 
   @HostListener('window:resize', ['$event'])

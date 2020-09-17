@@ -58,7 +58,7 @@
       },
       {
         "type":"Matemáticas",
-        "title": "Ecuaciónes diferencial",
+        "title": "Ecuaciónes diferenciales",
         "description": "Una ecuación diferencial es una ecuación matemática que relaciona una función con sus derivadas.",
         "descriptionLink": "https://es.wikipedia.org/wiki/%C3%81lgebra_lineal",
         "link": "/lasbases/ecuacionesdiferenciales",
@@ -106,7 +106,7 @@
       },
       {
         "type":"Matemáticas",
-        "title": "Números complejo",
+        "title": "Números complejos",
         "description": "Los números complejos son una extensión de los números reales y forman un cuerpo algebraicamente cerrado.",
         "descriptionLink": "https://es.wikipedia.org/wiki/N%C3%BAmero_complejo",
         "link": "/lasbases/numeroscomplejos",

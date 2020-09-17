@@ -77,22 +77,6 @@ a{
   text-decoration: none;
 }
 
-/* header{
-  position: sticky;
-  top: 0px;
-  background-color: var(--secondary-color);
-  width: 100%;
-  z-index: 1000;
-}
-
-section{
-  position: relative;
-  height: calc(100vh - 3rem);
-  width: 100%;
-  background: url('bg.jpg') no-repeat top center / cover;
-  overflow: hidden;
-} */
-
 .overlay{
   position: absolute;
   width: 100%;
@@ -102,60 +86,3 @@ section{
   /* background-color: rgb(56, 165, 238, 0.5); */
   background-color: var(--background-color);
 }
-
-/*
-*,::before,::after {
-  box-sizing: border-box;
-}
-
-html {
-  scroll-behavior: smooth;
-}
-
-body {
-  margin: var(--header-height) 0 0 0;
-  font-family: var(--body-font);
-  font-size: var(--normal-font-size);
-  color: var(--second-color);
-  line-height: 1.6;
-}
-
-h1, h2, p {
-  margin: 0;
-}
-
-ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-a{
-  text-decoration: none;
-}
-
-img {
-  max-width: 100%;
-  height: auto;
-  display: block;
-}
-
-.bd-grid {
-  max-width: 1024px;
-  display: grid;
-  grid-template-columns: 100%;
-  grid-column-gap: 2rem;
-  width: calc(100% - 2rem);
-  margin-left: var(--mb-2);
-  margin-right: var(--mb-2);
-}
-
-.l-header {
-  width: 100%;
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: var(--z-fixed);
-  background-color:var(--white-color);
-  box-shadow: 0 1px 4px rgba(146, 161, 176, .15);
-} */
