@@ -1,7 +1,7 @@
 <div class="card-container">
   <div class="card">
     <div class="img">
-      <a [href]="category.link">
+      <a [routerLink]="category.link">
         <img
           [src]="category.imageUrl"
           [alt]="category.imageText"
@@ -26,7 +26,7 @@
         {{ category.description }}
       </div>
       <div class="btn">
-        <a [href]="category.link">Leer más</a>
+        <a [routerLink]="category.link">Leer más</a>
       </div>
     </div>
   </div>

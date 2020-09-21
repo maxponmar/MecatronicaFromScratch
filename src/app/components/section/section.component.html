@@ -12,7 +12,7 @@
 <section *ngIf="category.articles.length > 0" class="card-list">
 
   <article class="card" *ngFor="let article of category.articles">
-    <a [href]="article.link">
+    <a [routerLink]="article.link">
       <header class="card-header">
         <p>{{ article.type }}</p>
         <h2>{{ article.title }}</h2>
