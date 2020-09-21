@@ -2,49 +2,55 @@
   <a><i class="bx bx-menu"></i></a>
 </div> -->
 
-<div id="mySidebar" class="sidebar">
+<div
+  *ngIf="article.sections.length > 0 else elseBlock"
+  id="mySidebar"
+  class="sidebar"
+>
   <a class="closebtn" (click)="closeNav()">×</a>
-  <a (click)="scroll(seccion1)" class="active">Seccion 1</a>
-  <a (click)="scroll(seccion2)" >Seccion 2</a>
-  <a (click)="scroll(seccion3)" >Seccion 3</a>
-  <a (click)="scroll(seccion4)" >Seccion 4</a>
-  <a (click)="scroll(seccion5)" >Seccion 5</a>
-  <a>Seccion 7</a>
-  <a>Seccion 8</a>
-  <a>Seccion 9</a>
-  <a>Seccion 10</a>
-  <a>Seccion 12</a>
-  <a>Seccion 13</a>
-  <a>Seccion 11</a>
+  <a
+    *ngFor="let section of article.sections"
+    (click)="scroll(section.id)"
+    routerLinkActive="active"
+    >{{ section.title }}</a
+  >
 </div>
 
 <div id="main">
-  <button class="openbtn" (click)="openNav()">☰ Ver secciones</button>
-  <article>
+  <button
+    *ngIf="article.sections.length > 0"
+    class="openbtn"
+    (click)="openNav()"
+  >
+    ☰ Ver secciones
+  </button>
+  <article *ngIf="article.sections.length > 0">
     <header>
-      <h1>{{ article.title }}</h1>
+      <h1 class="main_title">{{ article.title }}</h1>
     </header>
-    <section #seccion1>
-      <h2>Seccion 1: prueba</h2>
-      <p>Contenido de la seccion</p>
-    </section>
-    <section #seccion2>
-      <h2>Seccion 2: prueba</h2>
-      <p>Contenido de la seccion</p>
-    </section>
-    <section #seccion3>
-      <h2>Seccion 3: prueba</h2>
-      <p>Contenido de la seccion</p>
-    </section>
-    <section #seccion4>
-      <h2>Seccion 4: prueba</h2>
-      <p>Contenido de la seccion</p>
-    </section>
-    <section #seccion5>
-      <h2>Seccion 5: prueba</h2>
-      <p>Contenido de la seccion</p>
-    </section>
+    <div
+      *ngFor="let section of article.sections"
+      class="section"
+      [id]="section.id"
+    >
+      <section>
+        <h2>{{ section.title }}</h2>
+        <p>{{ section.content }}</p>
+      </section>
+    </div>
   </article>
 </div>
 
-
+<ng-template #elseBlock>
+  <div class="content">
+    <div class="header">
+      {{ article.title }}
+    </div>
+    <div class="header">
+      No hay contenido disponible
+    </div>
+    <p>
+      Por favor espere a que agregemos mas informacion a esta página
+    </p>
+  </div>
+</ng-template>

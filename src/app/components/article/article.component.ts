@@ -49,7 +49,7 @@ export class ArticleComponent implements OnInit {
     document.getElementById("main").style.marginLeft= "0";
   }
 
-  scroll(el: HTMLElement) {
-    el.scrollIntoView();
+  scroll(id: string) {
+    document.getElementById(id).scrollIntoView();
   }
 }
