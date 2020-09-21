@@ -9,7 +9,7 @@
   </div>
 </section>
 
-<section class="card-list">
+<section *ngIf="category.articles.length > 0" class="card-list">
 
   <article class="card" *ngFor="let article of category.articles">
     <a [href]="article.link">
